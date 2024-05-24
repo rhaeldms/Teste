@@ -17,6 +17,7 @@ Será necessário fazer teste dos códigos para identificar alguns problemas e p
   - Template Vue: `AppEditor.vue`
 
 ## Referências:
+
 [Documentação do ProseMirror](https://prosemirror.net/docs/ref/#commands)
 [Propriedades Vue.js](https://br.vuejs.org/v2/guide/components-props.html)
 [Aplicação de Vue.js](https://www.alura.com.br/artigos/cuidados-com-o-estado-de-uma-aplicacao-vue)
