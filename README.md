@@ -11,8 +11,8 @@ Será necessário fazer teste dos códigos para identificar alguns problemas e p
  - Importação e Uso de Componentes e Dependências
  - Eventos e Manipulação do DOM
  - Funcionalidades de Botões
-   
-- **Localização do Editor no Código:** pjemaisr\src\components\AppEditor\Editor.ts
+
+ **Localização do Editor no Código:** pjemaisr\src\components\AppEditor\Editor.ts
   - Arquivo principal do editor: `Editor.ts`
   - Template Vue: `AppEditor.vue`
 
