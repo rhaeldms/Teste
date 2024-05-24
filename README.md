@@ -4,9 +4,9 @@ Atualmente existe um processo para implementar o ProseMirror no código atual co
 
 Será necessário fazer teste dos códigos para identificar alguns problemas e pontos de melhoria que podem afetar seu funcionamento. Alguns pontos de observações:
 
- -Uso de Variáveis e Funções
- -Uso Inadequado de parâmetros
- -Problemas com Chaves (key) nos Loops
+ - Uso de Variáveis e Funções
+ - Uso Inadequado de parâmetros
+ - Problemas com Chaves (key) nos Loops
  - Componentes Customizados
  - Importação e Uso de Componentes e Dependências
  - Eventos e Manipulação do DOM
@@ -18,7 +18,7 @@ Será necessário fazer teste dos códigos para identificar alguns problemas e p
 
 ## Referências:
 
-[Documentação do ProseMirror](https://prosemirror.net/docs/ref/#commands)/
-[Propriedades Vue.js](https://br.vuejs.org/v2/guide/components-props.html)/
-[Aplicação de Vue.js](https://www.alura.com.br/artigos/cuidados-com-o-estado-de-uma-aplicacao-vue)/
-[Manipulação de Evento Vue.js](https://pt.vuejs.org/guide/essentials/event-handling)
+-[Documentação do ProseMirror](https://prosemirror.net/docs/ref/#commands)
+-[Propriedades Vue.js](https://br.vuejs.org/v2/guide/components-props.html)
+-[Aplicação de Vue.js](https://www.alura.com.br/artigos/cuidados-com-o-estado-de-uma-aplicacao-vue)
+-[Manipulação de Evento Vue.js](https://pt.vuejs.org/guide/essentials/event-handling)
