@@ -33,7 +33,9 @@
   - ★★★ = controle completo
   - ★★☆ = possível com adaptações
   - ★☆☆ = inadequado ou inexistente
-
+\\
+\\
+\\
 🟢 Conclusão
 🔝 Melhor opção para seu caso: React Native com backend próprio
 Permite 100% de controle sobre avisos, grupos obrigatórios e leitura (ciência).
