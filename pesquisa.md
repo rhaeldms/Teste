@@ -1,12 +1,12 @@
 | Software/Framework          | Complexidade | Comunidade | Curva de Aprendizagem | Integração com React Native | Controle de Fluxo (Aviso/Ciência) | Observações Relevantes                                  |
-|----------------------------|--------------|------------|------------------------|-----------------------------|-----------------------------------|---------------------------------------------------------|
-| **React Native (custom app)** | ★★☆         | ★★★       | ★★☆                   | ★★★                        | ★★★                             | 100% sob seu controle. Ideal para seu objetivo.         |
-| **Rocket.Chat**             | ★★☆         | ★★★       | ★★☆                   | ★★☆ *(via API ou app oficial)* | ★★☆ *(com bot/plugin)*           | Plataforma robusta, exige adaptação para seu fluxo.     |
-| **Matrix + Element**        | ★★★         | ★★★       | ★★☆                   | ★★☆ *(via SDKs JS/React)*     | ★☆☆ *(sem suporte direto a ciência)* | Complexo e descentralizado. Pouco aderente ao seu caso. |
-| **Zulip**                   | ★★☆         | ★★☆       | ★★☆                   | ★☆☆ *(sem app dedicado)*       | ★☆☆ *(sem ciência nativa)*       | Ideal para discussão técnica, não para avisos unilaterais. |
-| **Mattermost**              | ★★☆         | ★★☆       | ★★☆                   | ★★☆ *(SDK e app nativo)*       | ★☆☆ *(sem ciência nativa)*       | Pensado para chat corporativo. Pouca aderência direta.  |
-| **XMPP (ejabberd, etc.)**   | ★★★         | ★★☆       | ★☆☆                   | ★☆☆ *(via Smack ou wrappers)*  | ★☆☆ *(sem ciência nativa)*       | Alta flexibilidade técnica, mas exige muito esforço.     |
-| **Briar / Session**         | ★☆☆         | ★★        | ★★☆                   | ★☆☆ *(Android only / limitado)* | ★☆☆                             | App seguro P2P, sem backend controlável. Limitado demais.|
+|----------------------------|--------------|------------|------------------------|-----------------------------|-----------------------------------|--------------------------------------------------------|
+| **React Native (custom app)** | ★★☆       | ★★★       | ★★☆               | ★★★                        | ★★★                             | 100% sob seu controle. Ideal para seu objetivo.         |
+| **Rocket.Chat**             | ★★☆         | ★★★       | ★★☆               | ★★☆ *(via API ou app oficial)* | ★★☆ *(com bot/plugin)*           | Plataforma robusta, exige adaptação para seu fluxo.     |
+| **Matrix + Element**        | ★★★         | ★★★       | ★★☆               | ★★☆ *(via SDKs JS/React)*     | ★☆☆ *(sem suporte direto a ciência)* | Complexo e descentralizado. Pouco aderente ao seu caso. |
+| **Zulip**                   | ★★☆         | ★★☆       | ★★☆               | ★☆☆ *(sem app dedicado)*       | ★☆☆ *(sem ciência nativa)*       | Ideal para discussão técnica, não para avisos unilaterais. |
+| **Mattermost**              | ★★☆         | ★★☆       | ★★☆               | ★★☆ *(SDK e app nativo)*       | ★☆☆ *(sem ciência nativa)*       | Pensado para chat corporativo. Pouca aderência direta.  |
+| **XMPP (ejabberd, etc.)**   | ★★★         | ★★☆       | ★☆☆               | ★☆☆ *(via Smack ou wrappers)*  | ★☆☆ *(sem ciência nativa)*       | Alta flexibilidade técnica, mas exige muito esforço.     |
+| **Briar / Session**         | ★☆☆         | ★★        | ★★☆                | ★☆☆ *(Android only / limitado)* | ★☆☆                             | App seguro P2P, sem backend controlável. Limitado demais.|
 
 
 - **Complexidade**: Dificuldade de instalação/configuração/desenvolvimento
