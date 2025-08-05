@@ -1,0 +1,13 @@
+### Tabela Comparativa – Zulip Local vs Zulip Customizado
+
+| Requisito                                                  | Zulip Local (Instalação Oficial)                                                   | Zulip Customizado (Repositório)                                                            |
+|------------------------------------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Gerenciamento de Usuários**                              | Feito via interface admin padrão do Zulip.                                         | Mesmo gerenciamento, mas com possibilidade de extensões custom.                            |
+| **Personalização do sistema (rebranding total)**           | Muito limitada, alterações profundas podem quebrar nas atualizações.               | Totalmente viável; interface e funcionalidades customizáveis para identidade do cliente.   |
+| **Mensagem unidirecional (apenas admin envia mensagens)**  | Não suportado nativamente; seria necessário modificar permissões no backend.       | Pode ser implementado diretamente no código com regras de permissão específicas.           |
+| **Separação de grupos (sedes, cargos, temas)**             | Suporta parcialmente via “streams”, mas com limitações de customização e controle. | Pode criar lógica personalizada para grupos obrigatórios, tipos e categorias.              |
+| **Tipos de mensagem (Aviso x Informativo)**                | Não existe nativo; só mensagens comuns.                                            | Pode ser implementado criando categorias e exigindo ciência de leitura em mensagens “Aviso”.|
+| **Controle de ciência de leitura pelo admin**              | Não disponível nativamente; só confirmação individual via reações.                 | Pode ser adicionado customizando backend e adicionando painel de relatórios para admin.    |
+| **Cadastro e saída de usuários em grupos pelo admin**      | Cadastro em streams pode ser feito, mas saída é controlada pelo usuário.           | Controle total pelo admin (entrar/sair de grupos definidos como obrigatórios).             |
+| **Utilização do servidor próprio do cliente**              | Totalmente suportado; basta instalação em VM ou servidor físico do cliente.        | Também suportado, mas com mais controle sobre deploy e integração com infraestrutura do cliente. |
+| **Notificação no celular (push notifications)**            | Suporta notificações push, mas limitadas à configuração padrão do app oficial.     | Pode implementar notificações personalizadas (prioridade, templates, comportamento custom). |
