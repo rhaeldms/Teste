@@ -113,6 +113,7 @@ Isso implica usar também o Dart SDK mais recente. Acompanhamos o upstream para 
 Não fixamos versão específica (o Flutter não oferece mecanismo nativo para isso); quando necessário, avaliaremos soluções. Consulte a issue #15.
 
 📁 Estrutura de Pastas
+   ```bash
 zulip-flutter/
 ├── .github/workflows/
 │   ├── ci.yml                    # Build e testes automatizados
@@ -132,6 +133,8 @@ zulip-flutter/
 ├── assets/                       # Ícones e fontes
 ├── pubspec.yaml                  # Dependências Flutter
 └── analysis.options.yaml         # Regras de lint
+```
+
 🤝 Contribuindo
 
 Contribuições para este aplicativo são bem-vindas.
@@ -183,18 +186,24 @@ Organize as mudanças em commits claros e coerentes
 
  🧪 Testes
 
+```bash
 Execute todas as formas de testes com:
 tools/check
+```
 
 Veja tools/check --help para mais informações.
 
 As duas principais suítes de teste são:
 
 Analisador do Dart (tipagem e lint):
+```bash
 flutter analyze
+```
 
 Testes de unidade e widgets (em test/):
+```bash
 flutter test
+```
 
 Ambos os comandos aceitam caminhos e opções para filtrar execução; por exemplo, para rodar somente test/foo/bar_test.dart e casos contendo baz.
 
@@ -257,7 +266,9 @@ Arquivos gerados
 Ao editar definições de tipo, regerar o código associado (serialização JSON).
 
 Execute, por exemplo:
+```bash
 flutter pub run build_runner build
+```
 
 Suporte para desktop
 
@@ -273,4 +284,6 @@ Motivação: para desenvolvimento, rodar em desktop ajuda a testar responsividad
 
 📜 Licença
 
-Copyright ©
+Copyright © 2022 Kandra Labs, Inc.
+
+Licenciado sob a Licença Apache, Versão 2.0.
