@@ -287,3 +287,12 @@ Motivação: para desenvolvimento, rodar em desktop ajuda a testar responsividad
 Copyright © 2022 Kandra Labs, Inc.
 
 Licenciado sob a Licença Apache, Versão 2.0.
+Você pode obter uma cópia em:
+
+```bash
+http://www.apache.org/licenses/LICENSE-2.0
+```
+
+Salvo exigido por lei ou acordado por escrito, o software é distribuído “NO ESTADO EM QUE SE ENCONTRA”, SEM GARANTIAS de qualquer tipo.
+Consulte a Licença para permissões e limitações específicas.
+Inclui trabalhos de terceiros sob licenças livres e de código aberto, redistribuídos conforme seus termos.
